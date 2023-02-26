@@ -1,13 +1,16 @@
+window.addEventListener('load', function() {
+  var coll = document.getElementsByClassName("project_collapse");
+  var i;
 
-const sections = document.querySelectorAll(".section");
-      const buttons = document.querySelectorAll(".option");
-      
-      buttons.forEach((button, index) => {
-        button.addEventListener("click", () => {
-          console.log(`Button ${index + 1} clicked`);
-          sections.forEach((section) => {
-            section.style.display = "none";
-          });
-          sections[index].style.display = "block";
-        });
-      });
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+});

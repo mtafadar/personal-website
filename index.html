@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <link rel="stylesheet" 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous">
 
@@ -9,163 +10,24 @@
 
 <script src="script.js"></script>
     
-    <title>my page</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f2f2f2;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-      }
-      
-      .box {
-        background-color: #fff;
-        width: 70%;
-        margin: 0 auto;
-        padding: 20px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        position: relative;
-      }
-      
-      .box:before {
-        content: "";
-        position: absolute;
-        top: -2px;
-        left: -2px;
-        right: -2px;
-        bottom: -2px;
-        border: 2px solid #ccc;
-        z-index: -1;
-      }
-      .box:after {
-        content: "";
-        position: absolute;
-        top: -6px;
-        left: -6px;
-        right: -6px;
-        bottom: -6px;
-        border: 6px solid #ccc;
-        z-index: -2;
-      }
-      
-      .profile-img {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        object-fit: cover;
-        object-position: center;
-        position: absolute;
-        top: 20px;
-        left: -75px;
-      }
-      
-      .logo {
-        width: 100px;
-        height: auto;
-        margin-bottom: 20px;
-      }
-      
-      .icon {
-        font-size: 24px;
-        margin-right: 5px;
-      }
-      
-      h1 {
-        font-size: 36px;
-        text-align: center;
-        margin: 0;
-        margin-bottom: 10px;
-      }
-
-    .center {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .job-title {
-      display: flex;
-      align-items: center;
-      margin-top: -5px;
-    }
-    .job-title p {
-      margin: 0;
-      font-size: 18px;
-      margin-left: 5px;
-    }
-    .company-icon {
-      width: 20px;
-      height: 20px;
-      margin-right: 5px;
-    }
-    .social-media a i {
-     font-size: 30px;
-     padding: 10px;
-}
-
-
-.options-container {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-.option {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 18px;
-  font-weight: bold;
-  color: #333;
-  text-decoration: none;
-}
-
-.section {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.divider {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: none;
-  border-bottom: 2px solid #ddd;
-}
-
-
-button.option {
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.section {
-  display: none;
-}
-
-
-    </style>
-    
+  <title>my page</title>
+<link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  
+   
   <body>
     <div class="box">
-      <img src="my_picture.JPG" alt="Profile picture" class="profile-img">
+      <img src="images/my_picture.JPG" alt="Profile picture" class="profile-img">
       <div class="center">
         <h1>Mosrour Tafadar</h1>
         
         <div class="job-title">
-          <img class="company-icon" src="company.jpeg" alt="Company Icon">
+          <img class="company-icon" src="images/company.jpeg" alt="Company Icon">
        <p>Security Operation Intern</p>
       </div>  
 
       <div class="study-container">
   <i class="fa fa-graduation-cap"></i>
-  <span>Computer Science | University of Illinois at Chicago</span>
+  <span>Computer Science & Mathemathics | University of Illinois at Chicago</span>
 </div>
         
 
@@ -180,52 +42,109 @@ button.option {
 
 
 <br>
-<br>   
+<br> 
 
-<div class="options-container">
-  <button class="option" data-target="#about-me"><i class="fas fa-user icon"></i>About me</button>
-  <div class="divider"></div>
-  <button class="option" data-target="#work-experience"><i class="fas fa-briefcase icon"></i>Work Experience</button>
-  <div class="divider"></div>
-  <button class="option" data-target="#skills"><i class="fas fa-laptop-code icon"></i>Skills</button>
-  <div class="divider"></div>
-  <button class="option" data-target="#interests"><i class="fas fa-heart icon"></i>Interests</button>
-  <div class="divider"></div>
-  <button class="option" data-target="#projects"><i class="fas fa-project-diagram icon"></i>Projects</button>
-  <div class="divider"></div>
-  <button class="option" data-target="#coursework"><i class="fas fa-book-open icon"></i>Coursework</button>
+<div class="portfolio_body">
+  <button class="project_collapse"><i class="fas fa-info-circle"></i> About Me</button>
+  <div class="portfolio_content">
+    <p>
+      <ul style="list-style:square;">
+      I spent my early childhood in a small remote village in Bangladesh before moving to a relatively large city where I studied until 10th grade. After that, my family and I moved to Chicago, which became our new home.
+
+Growing up in different places has taught me many things, but two values have stayed with me wherever I go: curiosity and kindness.
+
+My college journey began at Northeastern Illinois University, where I spent a few semesters studying computer science. In 2020, I transferred to the University of Illinois at Chicago to pursue my interest in statistics and computer science and to learn from a diverse group of students. I have taken many low and high  level classes, which you can see in the courses section. Over the years, I have also gained experience with several programming languages through internships and coursework, and I now feel comfortable using the following:
+        
+        <br/> 
+        <br />
+        
+        <strong>Languages</strong>
+        <div>
+        <li><i class="fab fa-cuttlefish"></i> C++</li>
+      <li><i class="fab fa-python"></i> Python</li>
+      <li><i class="fas fa-database"></i> SQL</li>
+      <li><i class="fas fa-code"></i> SPL</li>
+     <li><i class="fab fa-java"></i> Java</li>
+    <li><i class="fab fa-r-project"></i> R</li>
+      </ul>
+    </p>
+  </div>
+
+  <button class="project_collapse"><i class="fas fa-briefcase"></i> Work Experience</button>
+  <div class="portfolio_content">
+    <p>
+      <strong>Software Development Intern</strong>, XYZ Company (Summer 2022)<br />
+      - Worked on developing features for the company's flagship product<br />
+      - Collaborated with team members using Agile methodologies<br /><br />
+
+      <strong>Web Development Intern</strong>, ABC Organization (Spring 2022)<br />
+      - Developed and maintained the company's website<br />
+      - Worked on implementing SEO best practices<br /><br />
+    </p>
+  </div>
+
+  <button class="project_collapse"><i class="fas fa-certificate"></i> Certification</button>
+  <div class="portfolio_content">
+    <p>
+      <strong>Microsoft Certified: Azure Developer Associate</strong><br />
+      - Certified in developing and deploying applications on Microsoft Azure<br /><br />
+
+      <strong>Oracle Certified Associate, Java SE 8 Programmer</strong><br />
+      - Certified in Java programming and application development<br /><br />
+    </p>
+  </div>
+
+  <button class="project_collapse"><i class="fas fa-project-diagram"></i> Projects</button>
+  <div class="portfolio_content">
+    <p>
+      <strong>Personal Finance Tracker</strong><br />
+      - Developed a web application using React and Node.js to track personal finances<br />
+      - Implemented user authentication and authorization using JWT<br /><br />
+
+      <strong>Twitter Sentiment Analysis</strong><br />
+      - Used Python to analyze Twitter data and classify tweets into positive, negative, and neutral<br />
+      - Deployed the application on Heroku<br /><br />
+    </p>
+  </div>
+
+  <button class="project_collapse"><i class="fas fa-graduation-cap"></i> Course Work</button>
+  <div class="portfolio_content">
+    <p>
+      <strong>Computer Science Courses</strong><br />
+      - Data Structures and Algorithms<br />
+      - Operating Systems<br />
+      - Artificial Intelligence<br /><br />
+
+      <strong>Other Courses</strong><br />
+      - Financial Accounting<br />
+      - Microeconomics<br />
+      - Spanish I and II<br /><br />
+    </p>
+  </div>
+
+  <button class="project_collapse"><i class="fas fa-file-alt"></i> Resume</button>
+  <div class="portfolio_content">
+    <p>
+      You can find my resume <a href="resume.pdf">here</a>.
+    </p>
+  </div>
+
+  <button class="project_collapse"><i class="fas fa-heart"></i> Interests</button>
+  <div class="portfolio_content">
+    <p>
+      - Playing video games<br />
+      - Watching movies and TV shows<br />
+      - Playing basketball and tennis<br /><br />
+    </p>
+  </div>
+
+  <button class="project_collapse"><i class="fas fa-music"></i> Hobbies</button>
+  <div class="portfolio_content">
+    <p>
+      - Playing guitar<br />
+      - Listening to music<br /><br />
+    </p>
+  </div>
 </div>
-
-<div id="about-me" class="section">
-  <p>About me content here</p>
-</div>
-<div class="divider"></div>
-
-<div id="work-experience" class="section">
-  <p>Work experience content here</p>
-</div>
-<div class="divider"></div>
-
-<div id="skills" class="section">
-  <p>Skills content here</p>
-</div>
-<div class="divider"></div>
-
-<div id="interests" class="section">
-  <p>Interests content here</p>
-</div>
-<div class="divider"></div>
-
-<div id="projects" class="section">
-  <p>Projects content here</p>
-</div>
-<div class="divider"></div>
-
-<div id="coursework" class="section">
-  <p>Coursework content here</p>
-</div>
-
-
-      
   </body>
 </html>
