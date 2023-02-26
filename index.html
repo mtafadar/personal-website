@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link rel="stylesheet" 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous">
+
+<!-- Add this to load the Font Awesome JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-sZ/9+fUNdFif/7PxYzLSsPMI1CQ+FjLGRqZh+WZ+wI8gDp4dYa4w4wzZaMJtZ8c9G7JKSBytn2OyM4WkYYfOxw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="script.js"></script>
+    
+    <title>my page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+      
+      .box {
+        background-color: #fff;
+        width: 70%;
+        margin: 0 auto;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        position: relative;
+      }
+      
+      .box:before {
+        content: "";
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        right: -2px;
+        bottom: -2px;
+        border: 2px solid #ccc;
+        z-index: -1;
+      }
+      .box:after {
+        content: "";
+        position: absolute;
+        top: -6px;
+        left: -6px;
+        right: -6px;
+        bottom: -6px;
+        border: 6px solid #ccc;
+        z-index: -2;
+      }
+      
+      .profile-img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+        position: absolute;
+        top: 20px;
+        left: -75px;
+      }
+      
+      .logo {
+        width: 100px;
+        height: auto;
+        margin-bottom: 20px;
+      }
+      
+      .icon {
+        font-size: 24px;
+        margin-right: 5px;
+      }
+      
+      h1 {
+        font-size: 36px;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 10px;
+      }
+
+    .center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .job-title {
+      display: flex;
+      align-items: center;
+      margin-top: -5px;
+    }
+    .job-title p {
+      margin: 0;
+      font-size: 18px;
+      margin-left: 5px;
+    }
+    .company-icon {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+    }
+    .social-media a i {
+     font-size: 30px;
+     padding: 10px;
+}
+
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.divider {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 2px solid #ddd;
+}
+
+
+button.option {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.section {
+  display: none;
+}
+
+
+    </style>
+    
+  </head>
+  
+  <body>
+    <div class="box">
+      <img src="my_picture.JPG" alt="Profile picture" class="profile-img">
+      <div class="center">
+        <h1>Mosrour Tafadar</h1>
+        
+        <div class="job-title">
+          <img class="company-icon" src="company.jpeg" alt="Company Icon">
+       <p>Security Operation Intern</p>
+      </div>  
+
+      <div class="study-container">
+  <i class="fa fa-graduation-cap"></i>
+  <span>Computer Science | University of Illinois at Chicago</span>
+</div>
+        
+
+      <div class="social-media">
+ <a href="mailto:mosrourtafadar@gmail.com"><i class="fas fa-envelope icon"></i></a>
+  <a href="https://github.com/mtafadar"><i class="fab fa-github icon"></i></a>
+  <a href="https://www.linkedin.com/in/mosrour/"><i class="fab fa-linkedin icon"></i></a>
+
+     
+</div>    
+  </div>
+
+
+<br>
+<br>   
+
+<div class="options-container">
+  <button class="option" data-target="#about-me"><i class="fas fa-user icon"></i>About me</button>
+  <div class="divider"></div>
+  <button class="option" data-target="#work-experience"><i class="fas fa-briefcase icon"></i>Work Experience</button>
+  <div class="divider"></div>
+  <button class="option" data-target="#skills"><i class="fas fa-laptop-code icon"></i>Skills</button>
+  <div class="divider"></div>
+  <button class="option" data-target="#interests"><i class="fas fa-heart icon"></i>Interests</button>
+  <div class="divider"></div>
+  <button class="option" data-target="#projects"><i class="fas fa-project-diagram icon"></i>Projects</button>
+  <div class="divider"></div>
+  <button class="option" data-target="#coursework"><i class="fas fa-book-open icon"></i>Coursework</button>
+</div>
+
+<div id="about-me" class="section">
+  <p>About me content here</p>
+</div>
+<div class="divider"></div>
+
+<div id="work-experience" class="section">
+  <p>Work experience content here</p>
+</div>
+<div class="divider"></div>
+
+<div id="skills" class="section">
+  <p>Skills content here</p>
+</div>
+<div class="divider"></div>
+
+<div id="interests" class="section">
+  <p>Interests content here</p>
+</div>
+<div class="divider"></div>
+
+<div id="projects" class="section">
+  <p>Projects content here</p>
+</div>
+<div class="divider"></div>
+
+<div id="coursework" class="section">
+  <p>Coursework content here</p>
+</div>
+
+
+      
+  </body>
+</html>
