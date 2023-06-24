@@ -211,7 +211,7 @@ align-items: center;
 
 @media (max-width: 768px) {
   .box {
-  width: 90%;
+  display:none
   }
   
   .profile-img {
@@ -233,6 +233,13 @@ align-items: center;
   .portfolio_content li {
   margin-left: 0;
   }
+  
+  .study-container{
+    font-size: 12px
+  }
+
+
+  
 }
 
 
