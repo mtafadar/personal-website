@@ -210,6 +210,10 @@ align-items: center;
 
 
 @media (max-width: 768px) {
+
+  .box{
+    width:80%
+  }
   
   .profile-img {
   display:none
