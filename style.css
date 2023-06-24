@@ -211,15 +211,11 @@ align-items: center;
 
 @media (max-width: 768px) {
 
-  .box:before,
-  .box:after {
-    display: none;
-  }
-  
+
+
   .profile-img {
   display:none
   }
-  
   .center {
   align-items: flex-start;
   }
