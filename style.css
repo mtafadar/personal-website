@@ -211,8 +211,9 @@ align-items: center;
 
 @media (max-width: 768px) {
 
-  .box{
-    width:80%
+  .box:before,
+  .box:after {
+    display: none;
   }
   
   .profile-img {
