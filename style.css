@@ -207,3 +207,32 @@ margin: 0;
 display: flex;
 align-items: center;
 }
+
+
+@media (max-width: 768px) {
+  .box {
+  width: 90%;
+  }
+  
+  .profile-img {
+  display:none
+  }
+  
+  .center {
+  align-items: flex-start;
+  }
+  
+  .portfolio_body {
+  width: 100%;
+  }
+  
+  .project_collapse {
+  margin-left: 0;
+  }
+  
+  .portfolio_content li {
+  margin-left: 0;
+  }
+}
+
+
