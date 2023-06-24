@@ -220,6 +220,11 @@ align-items: center;
     display: none;
   }
 
+  .box{
+    width: 100%;
+    height: 100%;
+  }
+
   .profile-img {
   display:none
   }
