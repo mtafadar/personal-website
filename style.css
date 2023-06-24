@@ -211,7 +211,11 @@ align-items: center;
 
 @media (max-width: 768px) {
 
-  .box:before,
+
+  .box:before {
+    display: none;
+  }
+
   .box:after {
     display: none;
   }
