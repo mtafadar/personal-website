@@ -173,6 +173,17 @@ h1 {
   margin-bottom: 5px;
 }
 
+/* This style for programming langauge  skills section */
+.languages {
+  margin-top: -40px;
+  margin-left: -80px;
+}
+
+ul.prog {
+  margin-left: -180px;
+  margin-top: -20px;
+}
+
 .portfolio_content .programming-languages {
   display: flex;
   flex-direction: column;
