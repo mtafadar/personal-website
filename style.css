@@ -209,6 +209,14 @@ h1 {
   align-items: center;
 }
 
+footer{
+  font-size: 12px;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
 
 @media (max-width: 768px) {
 

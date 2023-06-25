@@ -1,7 +1,6 @@
 function filterBlogs() {
   const searchInput = document.getElementById("searchInput");
    
-  console.log(searchInput);
 
   const searchValue = searchInput.value.toLowerCase();
   const blogItems = document.getElementsByClassName("blog-item");
