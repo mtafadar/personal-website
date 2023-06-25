@@ -1,5 +1,8 @@
 function filterBlogs() {
   const searchInput = document.getElementById("searchInput");
+   
+  console.log(searchInput);
+
   const searchValue = searchInput.value.toLowerCase();
   const blogItems = document.getElementsByClassName("blog-item");
 
@@ -24,6 +27,10 @@ function filterBlogs() {
   }
 }
 
+document.addEventListener("DOMContentLoaded", function() {
 // Add event listener to search input
 const searchInput = document.getElementById("searchInput");
+console.log(searchInput)
+
 searchInput.addEventListener("input", filterBlogs);
+})
