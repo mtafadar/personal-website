@@ -175,14 +175,56 @@ h1 {
 
 /* This style for programming langauge  skills section */
 .languages {
-  margin-top: -40px;
+  margin-top: -50px;
   margin-left: -80px;
 }
 
 ul.prog {
   margin-left: -180px;
-  margin-top: -20px;
+  margin-top: -5px;
 }
+
+
+/* Style for security tools section */
+.security-tools {
+  margin-left: -150px; 
+  margin-top: -50px;
+}
+
+ul.sec-tools-values {
+  margin-top: -5px;
+  margin-left: -250px; 
+}
+
+
+/* Style for other skills  section */
+
+.other-skills {
+  margin-left: -120px; 
+  margin-top: -50px;
+
+}
+
+
+ul.other-skills-values{
+  margin-top: -5px;
+  margin-left: -230px; 
+}
+
+
+.container {
+  display: flex;
+}
+
+/* Flexbox item styles */
+.container > * {
+  flex: 1;
+}
+
+
+
+
+
 
 .portfolio_content .programming-languages {
   display: flex;
