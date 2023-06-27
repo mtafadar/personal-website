@@ -144,6 +144,8 @@ h1 {
   list-style: none;
 }
 
+
+
 .project_collapse {
   background: #fff;
   color: #000;
@@ -221,6 +223,22 @@ ul.other-skills-values{
   flex: 1;
 }
 
+.resume-pdf{
+  margin-top: -20px;
+  margin-left: -50px;
+}
+
+/*Clsing the gap between Section */
+.resume{
+  margin-bottom: -30px;
+}
+
+
+ul.Interest_items {
+  list-style: disc inside !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
 
 
 
