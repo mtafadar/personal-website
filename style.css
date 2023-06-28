@@ -9,6 +9,8 @@ body {
   min-height: 100vh;
 }
 
+
+
 .box {
   background-color: #fff;
   width: 70%;
@@ -164,11 +166,7 @@ h1 {
   margin-right: 10px;
 }
 
-.portfolio_content ul {
-  list-style: square;
-  margin-top: -30px;
-  margin-bottom: -20px;
-}
+
 
 .portfolio_content strong {
   display: block;
