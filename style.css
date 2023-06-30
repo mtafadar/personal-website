@@ -84,6 +84,12 @@ h1 {
   align-items: center;
 }
 
+.experience{
+  margin-top: -30px;
+  margin-bottom: -30px;
+  margin-left: -4px;
+}
+
 .job-title {
   display: flex;
   align-items: center;
@@ -106,8 +112,6 @@ h1 {
   font-size: 30px;
   padding: 10px;
 }
-
-
 
 
 .portfolio_body {
@@ -154,6 +158,12 @@ h1 {
 }
 
 
+.certifications{
+  margin-top: -20px;
+  margin-bottom: -45px;
+  margin-left: -4px;
+}
+
 
 .project_collapse {
   background: #fff;
@@ -178,6 +188,10 @@ h1 {
   margin-bottom: 5px;
 }
 
+.skills{
+  margin-bottom: -45px;
+  margin-left: 80px;
+}
 /* This style for programming langauge  skills section */
 .languages {
   margin-top: -50px;
