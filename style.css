@@ -288,6 +288,7 @@ footer{
 @media (max-width: 768px) {
 
 
+
   .box:before {
     display: none;
   }
@@ -351,5 +352,11 @@ footer{
   ul.other-skills-values {
     margin-left: 0;
   }
+
+  .resume-pdf{
+    margin-top: -20px;
+    margin-left: 12px;
+  }
+  
 
 }
