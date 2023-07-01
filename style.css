@@ -147,6 +147,8 @@ h1 {
   line-height: 1.5;
 }
 
+
+
 .portfolio_content p {
   margin-bottom: 20px;
 }
@@ -154,7 +156,7 @@ h1 {
 .portfolio_content ul {
   margin: 0;
   padding-left: 30px;
-  list-style: none;
+
 }
 
 
@@ -250,15 +252,20 @@ ul.other-skills-values{
   margin-bottom: -30px;
 }
 
-
-ul.Interest_items {
-  list-style: disc inside !important;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
+.colorful-heart{
+  color:red;
 }
 
+.Interest{
+  margin-top: -40px;
+  margin-left: -4px;
+  margin-bottom: -30px;
+}
 
-
+ul.Interest_items{
+  margin-top: -20px;
+  margin-bottom: -15px;
+}
 
 
 .portfolio_content .programming-languages {
@@ -295,6 +302,39 @@ ul.Interest_items {
   margin: 0;
   display: flex;
   align-items: center;
+}
+
+.colorful-royal-blue{
+  color:#2196F3;
+}
+
+
+.colorful-gold{
+  color:gold;
+}
+
+.colorful-gray{
+  color:gray;
+}
+
+.colorful-navy-blue{
+  color:#005A9C;
+}
+
+.colorful-green{
+  color:green;
+}
+
+.colorful-blue{
+  color:blue;
+}
+
+.colorful-purple{
+  color:purple;
+}
+
+.colorful-orange{
+  color:orange;
 }
 
 footer{
