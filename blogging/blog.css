@@ -221,4 +221,27 @@
         width: 80%;
         max-width: 300px;
       }
+
+      .hero {
+    padding: 100px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero::after {
+    width: 50px;
+    height: 50px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .blog-item {
+    flex-basis: 100%;
+  }
+
+
     }
