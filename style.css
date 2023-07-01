@@ -304,6 +304,12 @@ ul.Interest_items{
   align-items: center;
 }
 
+.projects{
+  margin-top: -40px;
+  margin-left: -39px;
+  margin-bottom: -35px;
+}
+
 .colorful-royal-blue{
   color:#2196F3;
 }
@@ -335,6 +341,11 @@ ul.Interest_items{
 
 .colorful-orange{
   color:orange;
+}
+
+.Hobbies{
+  margin-left:-135px;
+  margin-bottom: -25px;
 }
 
 footer{
