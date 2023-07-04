@@ -167,6 +167,8 @@ h1 {
 }
 
 
+
+
 .project_collapse {
   background: #fff;
   color: #000;
@@ -288,7 +290,7 @@ ul.Interest_items{
 .certification {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: -10px;
 }
 
 .certification-icon {
