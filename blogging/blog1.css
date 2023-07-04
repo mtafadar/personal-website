@@ -48,6 +48,23 @@ h1 {
     margin-left: 140px;
   }
 
+.Image-caption-village{
+    text-align: center;
+    margin: 0;
+}
+
+
+  @media only screen and (max-width: 480px) {
+    .village-pic {
+        width: 60%;
+        height: 350px;
+        margin-left: 80px;
+
+      }
+
+   
+
+  }
 
 
 

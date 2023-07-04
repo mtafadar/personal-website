@@ -361,6 +361,7 @@ footer{
 
 
 
+
   .box:before {
     display: none;
   }
@@ -433,6 +434,13 @@ footer{
   .projects{
     margin-left: 25px;
   }
+
+  ul.Interest_items{
+    margin-top: -20px;
+    margin-bottom: -15px;
+    margin-left: 130px;
+  }
+  
   
 
 }
