@@ -12,7 +12,7 @@ const savedItems = [
     {
       category: 'general',
       title: 'Post-graduation advice you’ll actually use',
-      description: 'A  very well written post',
+      description: 'A  very well written article',
       imageSrc: '/images/post_graduation.webp',
       link: 'https://www.vox.com/even-better/23719790/post-graduation-advice-life-work-money?utm_source=facebook&utm_medium=social&utm_campaign=vox.social&utm_content=voxdotcom&fbclid=IwAR3xPXJZpAVcema7kyi_CURahLyib4URpSnO8Kr7d9UZAeLhchUoxmb5Gck',
       medium: 'Read'
