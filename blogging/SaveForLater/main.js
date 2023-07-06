@@ -19,7 +19,6 @@ const savedItems = [
     }
   ];
   
-  
   // Function to display saved items for the selected category
   function showSavedItems(category) {
     const savedItemsContainer = document.querySelector('.saved-items');
