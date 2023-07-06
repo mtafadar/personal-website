@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .highlight {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .highlight h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .highlight p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .saved-for-later-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  button.category-tab {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  button.category-tab.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .saved-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .saved-item-card {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .saved-item-card img {
+    max-width: 100%;
+  }
+  
+  
+  /* Other styles remain the same */
+  
+  /* Add the media query for smaller screens (e.g., phones) */
+  @media screen and (max-width: 767px) {
+    .categories {
+      flex-direction: column; /* Stack buttons vertically */
+    }
+  
+    button.category-tab {
+      width: 100%; /* Buttons take full width on smaller screens */
+      margin: 5px 0; /* Adjust margin to provide spacing between buttons */
+    }
+  }
