@@ -16,7 +16,18 @@ const savedItems = [
       imageSrc: '/images/post_graduation.webp',
       link: 'https://www.vox.com/even-better/23719790/post-graduation-advice-life-work-money?utm_source=facebook&utm_medium=social&utm_campaign=vox.social&utm_content=voxdotcom&fbclid=IwAR3xPXJZpAVcema7kyi_CURahLyib4URpSnO8Kr7d9UZAeLhchUoxmb5Gck',
       medium: 'Read'
+    },
+
+    {
+      category: 'movies',
+      title: 'Oppenheimer',
+      description: "I watched Oppenheimer on July 1, 2023, at AMC IMAX. I didnt know much about Oppenheimer as a scientist before seeing the movie, but I found it fascinating. The story of how the first nuclear weapon came to light was truly gripping. As a fan of historical science movies, I loved how the film showed how even the purest intentions can have negative consequences.",
+      imageSrc: '/images/oppenheimer.jpg',
+      link: 'https://www.newyorker.com/culture/the-front-row/oppenheimer-is-ultimately-a-history-channel-movie-with-fancy-editing',
+      medium: 'Read more about Oppenheimer'
     }
+
+
   ];
   
   // Function to display saved items for the selected category
@@ -70,6 +81,7 @@ const savedItems = [
       showSavedItems(selectedCategory);
     });
     
+
   });
   
   // Show saved items for the initial active category (e.g., "General")
