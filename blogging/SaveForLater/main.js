@@ -12,7 +12,7 @@ const savedItems = [
     {
       category: 'general',
       title: 'Post-graduation advice you’ll actually use',
-      description: 'A  very well written article',
+      description: 'A  very well written article about post-graduation advice',
       imageSrc: '/images/post_graduation.webp',
       link: 'https://www.vox.com/even-better/23719790/post-graduation-advice-life-work-money?utm_source=facebook&utm_medium=social&utm_campaign=vox.social&utm_content=voxdotcom&fbclid=IwAR3xPXJZpAVcema7kyi_CURahLyib4URpSnO8Kr7d9UZAeLhchUoxmb5Gck',
       medium: 'Read'
@@ -25,7 +25,18 @@ const savedItems = [
       imageSrc: '/images/oppenheimer.jpg',
       link: 'https://www.newyorker.com/culture/the-front-row/oppenheimer-is-ultimately-a-history-channel-movie-with-fancy-editing',
       medium: 'Read more about Oppenheimer'
-    }
+    }, 
+
+    {
+    category: 'general',
+    title: 'Create a Growth Culture, Not a Performance-Obsessed One',
+    description: 'A  very well written article about career and performance ',
+    imageSrc: '/images/careerPerformance.jpeg',
+    link: 'https://hbr.org/2018/03/create-a-growth-culture-not-a-performance-obsessed-one?utm_medium=social&utm_campaign=hbr&utm_source=facebook&tpcc=orgsocial_edit&fbclid=IwAR0gjlP6kXSWFey6rVVJAqC63GOuJvR0HWg7jWwo2aEZu0lIQyAmIKvcp8Q',
+    medium: 'Read'
+  }
+
+
 
 
   ];
