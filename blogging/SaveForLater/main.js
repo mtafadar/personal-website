@@ -34,6 +34,15 @@ const savedItems = [
     imageSrc: '/images/careerPerformance.jpeg',
     link: 'https://hbr.org/2018/03/create-a-growth-culture-not-a-performance-obsessed-one?utm_medium=social&utm_campaign=hbr&utm_source=facebook&tpcc=orgsocial_edit&fbclid=IwAR0gjlP6kXSWFey6rVVJAqC63GOuJvR0HWg7jWwo2aEZu0lIQyAmIKvcp8Q',
     medium: 'Read'
+  },
+
+  {
+    category: 'tech',
+    title: 'The Exciting, Perilous Journey Toward AGI | Ilya Sutskever | TED',
+    description: 'It talks about AGI and what impact it will have in future. Fascinating talk',
+    imageSrc: '/images/Agi.jpeg',
+    link: 'https://www.youtube.com/watch?v=SEkGLj0bwAU&ab_channel=TED',
+    medium: 'Watch'
   }
 
 
