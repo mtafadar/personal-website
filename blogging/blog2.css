@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+
+
+header{
+    text-align: center;
+}
+
+
+.footer {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 40px;
+    color: #777;
+}
+
+.author {
+    margin-bottom: 5px;
+    color: gray;
+}
+
+.date {
+    color: gray;
+}
+
+.highlight {
+    background-color: #e8f4f8; /* Soft light blue background color */
+    color: #333;               /* Dark gray text color for better readability */
+    padding: 3px 5px;          /* Top and bottom padding of 3px and left and right padding of 5px */
+    border-radius: 4px;        /* Rounded corners for a smooth look */
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1); 
+    font-weight: bold;
+
+  }
+
+
+h1{
+    margin:0px
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    .village-pic {
+        width: 60%;
+        height: 350px;
+        margin-left: 80px;
+
+      }
+
+   
+
+  }
